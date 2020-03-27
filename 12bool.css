@@ -9,8 +9,9 @@
   height: 100%;
 }
 
-.col-lg-1 {
+@media screen and (min-width: 992px){
 
+.col-lg-1 {
   width: calc((100% / 12) * 1);
 }
 .col-lg-2 {
@@ -47,7 +48,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
   .col-xs-1 {
     width: calc((100% / 12) * 1);
@@ -87,7 +88,7 @@
   }
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
 
   .col-md-1 {
     width: calc((100% / 12) * 1);
